@@ -5,13 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>project 4</title>
-    <link href="style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <title>project 4</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary px-5 border-bottom border-success border-3">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar1 container-fluid">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="Bootstrap" width="200" height="60">
@@ -20,19 +21,19 @@
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Our Features</a>
+                        <a class="nav-link" href="#Our Features">Our Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#About Us">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonials</a>
+                        <a class="nav-link" href="#Testimonials">Testimonials</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -40,9 +41,8 @@
                             My Account
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#About Stocks">About Stocks</a></li>
+                            <li><a class="dropdown-item" href="#Sign Up Now">Sign Up Now</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -50,152 +50,183 @@
         </div>
     </nav>
 
-    <div class="container text-center my-2 border">
+    <div class="container-fluid text-center ffhd">
         <div class="row">
-            <div class="col-lg-6 ">
-                <h1 class="text-success">Your Gateway To<br> Alternative<br> Investments.</h1>
-                <p class="my-5 ">Take Control In All-In-One Investment, Retirement,<br> Checking And More.</p>
-                <button type="button" class="btn btn-success btn-lg ">GET STARTED</button>
+            <div class="col-lg-6">
+                <h1 class="text-success mt-5">Your Gateway To<br> Alternative<br> Investments.</h1>
+                <p class="my-4">Take Control In All-In-One Investment, Retirement,<br> Checking And More.</p>
+                <button type="button" class="btn btn-success btn-lg ms-3">GET STARTED</button>
             </div>
             <div class="col-lg-6">
-                <img src="images/banner-img.png" alt="" width="550" height="500">
+                <img src="images/banner-img.png" alt="" class="banner-img">
             </div>
         </div>
     </div>
 
-    <h2 class="hh">Our Feature</h2>
-    <h3 class="vv">We Make Investing And Fundraising Easy</h3>
-    <h4 class="text-start my-5 ps-5">For Investor</h4>
-
-    <section class="d-flex flex-row justify-content-around">
-        <!-- <div class="d-flex"> -->
-        <div class="card" style="width: 18rem;">
-            <img src="images/chart3.png" class="card-img-top" alt="chart" height="250px">
-            <div class="card-body">
-                <h5 class="card-title">Access High Quality<br>'Sponsored' Startups</h5>
-                <p class="card-text">Our team work to orignate.curate andprecsent disruptive and hyper growth ventures.
-                </p>
-            </div>
-        </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img src="images/star1.png" class="card-img-top" alt="star">
-            <div class="card-body">
-                <h5 class="card-title">Gain Access To A New<br>Age Assest Class</h5>
-                <p class="card-text">Diversify wealth via an assest class fundamentally different from conventional real
-                    estate and precious metals.</p>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img src="images/form.png" class="card-img-top" alt="form">
-            <div class="card-body">
-                <h5 class="card-title">Attend E-Pitch Nights</h5>
-                <p class="card-text">Our platform allow you access to elevator pitches directly from our founders.</p>
-
-            </div>
-        </div>
-    </section>
-
-    <h4 class="text-start my-3 ps-5">For Founder</h4>
-
-    <section class="d-flex flex-row justify-content-around">
-        <div class="card" style="width: 18rem;">
-            <img src="images/laptop.png" class="card-img-top" alt="chart">
-            <div class="card-body">
-                <h5 class="card-title">Develop Well-Targeted<br>Campaigns</h5>
-                <p class="card-text">Our team work to orignate.curate andprecsent disruptive and hyper growth ventures.
-                </p>
-            </div>
-        </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img src="images/chart2.png" class="card-img-top" alt="star" height="250">
-            <div class="card-body">
-                <h5 class="card-title">Connect With Investors<br>Via "E-roadshows"</h5>
-                <p class="card-text">Diversify wealth via an assest class fundamentally different from conventional real
-                    estate and precious metals.</p>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img src="images/chart.jpg" class="card-img-top" alt="form">
-            <div class="card-body">
-                <h5 class="card-title">Track Your Funding</h5>
-                <p class="card-text">Our platform allow you access to elevator pitches directly from our founders.</p>
+    <section>
+        <h2 class="hh" id="Our Features">Our Feature</h2>
+        <h3 class="vv">We Make Investing And Fundraising Easy</h3>
+        <div class="container-fluid">
+            <div class="row">
+                <h1 class="fw-bold mb-4">For Investor</h1>
+                <div class="d-flex">
+                    <div class="col-lg-4">
+                        <div class="card py-5 text-center" style="width: 18rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="card-img-top star" width="16" height="100"
+                                fill="green" class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5" />
+                            </svg>
+                            <div class="card-body">
+                                <h5 class="card-title">Access Highly Quality</h5>
+                                <p class="card-text">Our team work to orignate.curate andprecsent disruptive and hyper
+                                    growth ventures.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card text-center py-5" style="width: 18rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="card-img-top star" width="16" height="100"
+                                fill="green" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <div class="card-body">
+                                <h5 class="card-title">Gain Access To A New Age Asset Class</h5>
+                                <p class="card-text">Our team work to orignate.curate andprecsent disruptive and hyper
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card text-center py-5" style="width: 18rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="card-img-top star" width="16" height="100"
+                                fill="green" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5" />
+                                <path
+                                    d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                            </svg>
+                            <div class="card-body">
+                                <h5 class="card-title">Attend E-Pitch Nights</h5>
+                                <p class="card-text">Our team work to orignate.curate andprecsent disruptive and hyper
+                                    growth ventures.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-
-    <div class="container-fluid bg-body-tertiary my-5">
+    <section class="container-fluid my-5">
         <div class="row">
-            <div class="col">
-                <h1 class="display-1 fw-bold text-success my-4">A Few Words About Us</h1>
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <p class="p1 max">
-                                <img src="images/aboutus.png" alt="aboutus" class="float">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, eaque? Rem error
-                                possimus dolor quo tenetur natus, quaerat non cum velit autem aperiam maiores temporibus
-                                quod doloribus maxime soluta reiciendis eligendi unde neque vero consequuntur nisi quae
-                                similique. Eaque iste iusto ipsa quam velit corrupti aspernatur qui cupiditate quia quo
-                                reiciendis odit officiis unde nobis vero quos facere incidunt, inventore similique saepe
-                                rerum omnis et error recusandae? Minus modi quas at accusamus quaerat animi perspiciatis
-                                nisi veritatis! Nobis quam sunt temporibus debitis rem ab veritatis cumque ducimus
-                                excepturi delectus. Neque possimus quo id, ab doloremque autem illum totam eligendi.
-                                Hic, ipsa adipisci? Tempora nihil officiis sit nemo, consectetur accusamus quae aliquid.
-                                Dolor tenetur autem, totam aliquid qui recusandae non numquam blanditiis sit quisquam
-                                laudantium maxime perspiciatis impedit nisi nemo beatae. Aspernatur eum esse nulla,
-                                voluptatem voluptate expedita, illum veniam excepturi quam dolorum laborum quis officiis
-                                perferendis et blanditiis quod provident cum temporibus suscipit eveniet dolores! Quos,
-                                alias molestiae quae totam recusandae porro omnis illum harum commodi voluptate
-                                voluptates a laboriosam officiis velit maiores dicta ipsa, blanditiis mollitia vel quis!
-                                Necessitatibus suscipit dolores mollitia sequi impedit fuga veritatis ratione quo.
-                                Commodi tenetur velit porro et voluptatibus obcaecati tempora aliquid dolor? Eaque
-                                deleniti qui beatae sunt asperiores temporibus autem sequi. Est iusto, hic aut in
-                                tenetur deleniti id similique fuga accusamus quod veniam ducimus quidem sequi delectus
-                                eum beatae odio voluptas magnam eos ea, harum expedita. Cupiditate, explicabo
-                                reprehenderit exercitationem officia doloremque itaque dolore ut consectetur delectus ad
-                                nisi
-                                <br>
-                                <button type="button" class="b1 bt btn btn-success">GET STARTED</button>
+            <h1 class="text-start fw-bold mb-4">For Founder</h1>
+            <div class="d-flex">
+                <div class="col-lg-4">
+                    <div class="card text-center py-5" style="width: 18rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="290" height="100" fill="green"
+                            class="bi bi-laptop" viewBox="0 0 16 16">
+                            <path
+                                d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5" />
+                        </svg>
+                        <div class="card-body">
+                            <h5 class="card-title">Develop Well-Targeted<br>Campaigns</h5>
+                            <p class="card-text">Our team work to orignate.curate andprecsent disruptive and hyper
+                                growth
+                                ventures.
                             </p>
-
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card py-5" style="width: 18rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="275" height="100" fill="green"
+                            class="bi bi-bar-chart-line-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1z" />
+                        </svg>
+                        <div class="card-body">
+                            <h5 class="card-title">Connect With Investors<br>Via "E-roadshows"</h5>
+                            <p class="card-text">Diversify wealth via an assest class fundamentally different from
+                                real
+                                estate.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card py-5" style="width: 18rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="275" height="100" fill="green" class="bi bi-map"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103M10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98 4-.8V1.11l-4 .8zm-6-.8V1.11l-4 .8v12.98z" />
+                        </svg>
+                        <div class="card-body">
+                            <h5 class="card-title">Track Your Funding</h5>
+                            <p class="card-text">Our platform allow you access to elevator pitches directly from our
+                                conventional fundamentally different founders.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="d-flex flex-row justify-content-around mb-3 border">
-            <div class="p-2">
-                <img src="images/mobile1.png" class="fr-mobile" alt="front image">
+    </section>
+
+    <div class="container-fluid ccf">
+        <div class="row">
+            <h1 class="text-success" id="About Us">A Few Words About Us</h1>
+            <div class="col-lg-6">
+                <p> Lorem ipsum dolor sit, amet
+                    consectetur
+                    adipisicing elit. Aliquid, eaque? Rem error
+                    dolor quo tenetur natus, quaerat non cum velit autem aperiam maiores temporibus quod
+                    doloribus maxime soluta reiciendis eligendi unde neque vero consequuntur nisi quae
+                    similique. Eaque iste iusto ipsa quam velit corrupti aspernatur qui cupiditate quia
+                    reiciendis odit officiis unde nobis vero quos facere incidunt, inventore similique sa
+                    rerum omnis et error recusandae? Minus modi quas at accusamus quaerat animi perspicia
+                    nisi veritatis! Nobis quam sunt temporibus debitis rem ab veritatis cumque ducimus
+                    delectus. Neque possimus quo id, ab doloremque autem illum totam eligendi. Hic,
+                    adipisci? Tempora nihil officiis sit nemo, consectetur accusamus quae aliquid. Dolor
+                    autem, totam aliquid qui recusandae non numquam blanditiis sit quisquam laudantium max
+                    perspiciatis impedit nisi nemo beatae. Aspernatur eum esse nulla, voluptatem.
+                <p>
+                    <button type="button" class="button-type bt btn btn-success">GET STARTED</button>
             </div>
-            <div class="p-2 my-5">
-                <h1 class="text-success head">Earn Found Money</h1>
-                <p class="para">Earn bonus investments when you shop with 350+ top brands.</p>
-                <button type="button" class="btn btn-success btn-lg">GET STARTED</button>
+            <div class="col-lg-6">
+                <img src="images/aboutus.png" class="images1" alt="about us">
             </div>
         </div>
     </div>
 
-    <section class="Testimonials" id="Testimonials">
-        <div>
-            <h1 class="display-1 text-center fw-bold text-success">What Our Clients Say</h1>
+    <div class="container-fluid my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="">
+                    <img src="images/mobile1.png" class="fr-mobile" alt="front image">
+                </div>
+            </div>
+            <div class="col-lg-6 efm">
+                <h1 class="text-success head" id="About Stocks">Earn Found Money</h1>
+                <p class="para">Earn bonus investments when you shop with 350+ top brands.</p>
+                <button type="button" class="btn btn-success hillo">GET STARTED</button>
+            </div>
         </div>
-        <div class="testimonial9 py-5 bg-light border card-shadow">
-            <div class="container">
+    </div>
+
+    <section class="Testimonials testadj" id="Testimonials">
+        <div>
+            <h5 class="display-3 text-center fw-bold text-success ps-5">What Our Clients Say</h5>
+        </div>
+        <div class="testimonial9 p-2 bg-light card-shadow">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="owl-carousel owl-theme testi9">
                         <div class="d-flex flex-row mb-3 justify-content-center">
                             <div class="p-2">
                                 <div class="item">
-                                    <div class="card service card-shadow border-0 mb-4 position-relative">
+                                    <div class="card card-shadow border-0 mb-4 position-relative">
                                         <div class="p-4 ">
                                             <h5 class="font-weight-light">WrapKit has given our websites huge
                                                 national presence. We are #1 on page one in Google search results
@@ -219,8 +250,8 @@
 
                             <div class="p-2">
                                 <div class="item">
-                                    <div class="card service card-shadow border-0 mb-4 position-relative">
-                                        <div class="p-4 ">
+                                    <div class="card card-shadow border-0 mb-4 position-relative">
+                                        <div class="p-4">
                                             <h5 class="font-weight-light">WrapKit has given our websites huge
                                                 national presence. We are #1 on page one in Google search results
                                                 for every website we have built, and rank for more keywords than I
@@ -236,7 +267,6 @@
                                         </div>
                                         <div class="f">
                                             <h6 class="font-weight-bold mb-0">Michael Anderson</h6>
-
                                         </div>
                                     </div>
                                 </div>
@@ -248,33 +278,42 @@
         </div>
     </section>
 
-    <div class="d-flex flex-coloumn bg-success border justify-content-between">
-        <div class="p-2 fs-1 text-light align-items-center">Take Your First Steps Towards Your Financial<br> Success
+    <div class="d-flex head3">
+        <div class="p-2 fs-1 text-light align-items-center" id>Take Your First Steps Towards Your Financial<br>
+            Success
         </div>
-        <div class="p-5 flex"><button type="button" class="btn btn-light btn-lg ">Sign Up Now</button></div>
+        <div class="p-5 flex"><button type="button" class="btn btn-light btn-lg bbbt1">Sign Up Now</button></div>
     </div>
 
-    <div class="paragraph p-3 my-3 text-justify">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus elementum scelerisque. Pellentesque
-            sed vulputate mi. Aliquam erat volutpat. In a mattis quam. Suspendisse euismod eu enim in molestie. Etiam
+    <div class="paragraph para4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus elementum scelerisque.
+            Pellentesque
+            sed vulputate mi. Aliquam erat volutpat. In a mattis quam. Suspendisse euismod eu enim in molestie.
+            Etiam
             placerat nisl in dapibus lobortis. Etiam fermentum tincidunt nunc.</p>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
             industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap
+            into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+            release of
             Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
             Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+            in
             some form, by injected humour, or randomised words which don't look even slightly believable. If you are
-            going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the
+            going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
+            the
             middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
             necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin
-            words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
-            The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic
+            words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks
+            reasonable.
+            The generated Lorem Ipsum is therefore always free from repetition, injected humour, or
+            non-characteristic
             words etc.</p>
     </div>
 
-    <div class="d-flex flex-row mb-3 p-3 bg-black text-success justify-content-between border">
+    <div class="d-flex lbox text-success">
         <div class="p-2">©2020 - All Right Reserved, Seedkaro.</div>
         <div class="p-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
@@ -314,8 +353,8 @@
             </svg>
         </div>
     </div>
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary px-5 border-bottom border-success border-3">
+  
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar1 container-fluid">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="Bootstrap" width="200" height="60">
@@ -324,19 +363,19 @@
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Our Features</a>
+                        <a class="nav-link" href="#Our Features">Our Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#About Us">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonials</a>
+                        <a class="nav-link" href="#Testimonials">Testimonials</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -344,39 +383,40 @@
                             My Account
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#About Stocks">About Stocks</a></li>
+                            <li><a class="dropdown-item" href="#Sign Up Now">Sign Up Now</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    
 
     <form class="border last-form my-3 p-5">
-        <h1 class="text-success">Create Account</h1>
-            <div class="mb-3">
-                <label for="lname" class="form-name">Full Name</label>
-                <input type="name" class="form-control" id="Name" value="Enter Full Name" aria-describedby="nameHelp">
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" value="Enter E-mail Address" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" value="" id="exampleInputPassword1">
-            </div>
-            <div class="mb-2 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
+        <h1 class="text-success" id="Sign Up Now">Create Account</h1>
+        <div class="mb-3">
+            <label for="lname" class="form-name">Full Name</label>
+            <input type="name" class="form-control" id="Name" value="Enter Full Name" aria-describedby="nameHelp">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" value="Enter E-mail Address"
+                aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" value="" id="exampleInputPassword1">
+        </div>
+        <div class="mb-2 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
         <button type="button" class="btn btn-success mx-5">Register</button>
     </form>
 
-    <div class="d-flex flex-row mb-3 p-3 bg-black text-success justify-content-between border">
+    <div class="d-flex lbox2 text-success">
         <div class="p-2">©2020 - All Right Reserved, Seedkaro.</div>
         <div class="p-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
@@ -416,10 +456,6 @@
             </svg>
         </div>
     </div>
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
