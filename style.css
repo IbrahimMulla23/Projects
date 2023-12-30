@@ -161,8 +161,9 @@ flex-card{
 }
 
 .fr-mobile{
-    margin-left: 245px;
+    margin-left: 215px;
     height: 600px;
+    padding-right: 380px;
 }
 
 .efm{
@@ -208,7 +209,7 @@ flex-card{
 }
 
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
     .navbar1{
         margin: 0px 447px 0px 0px;
         width: 1024px;
@@ -293,4 +294,4 @@ flex-card{
     .lbox2{
         width: 1024px;
     }
-  }  
+  }   */
